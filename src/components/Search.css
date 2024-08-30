@@ -1,0 +1,64 @@
+.youtube-search {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333; /* Darker color for better readability */
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 100%;
+  max-width: 560px; /* Increased width for larger video size */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
+  overflow: hidden;
+  background-color: #fff; /* White background for the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.video-info {
+  padding: 15px;
+}
+
+.video-title {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #333; /* Darker color for better readability */
+}
+
+.video-description {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px; /* Added space before button */
+}
+
+.copy-link-button {
+  background-color: #f1c40f;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.copy-link-button:hover {
+  background-color: #e1b12c;
+}
